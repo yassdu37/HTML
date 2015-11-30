@@ -1,0 +1,22 @@
+body{background-color: red; color: yellow;}
+h1  {font-size: 48px; border: 5px teal outset;}	
+
+div{background-color: green; border: solid 1px;}
+
+/* Identificateur */
+
+#div1{background-color: grey;}
+#italic {font-style : italic;}
+
+/*Class*/
+.Je {font-size: 78px;}
+.center{text-align: center;}
+
+/*Pseudo-class*/
+textarea:focus{color : red;}
+a:hover{color : red;text-decoration: underline;}
+
+/*Pseudo- elements*/
+p::first-line{color: blue;}
+/*p::first-letter{color: white;font-size: 50px;}*/
+.premierelettre {color: white;font-size: 50px;}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//FR"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Formulaire</title>
+</head>
+<body>
+	<form method = "get" enctype = "form-data" action = "toto">
+	<fieldset > <legend> Identité </legend> 
+		<label for="v1"> Nom : </label> <input type = "text" name = "v1" value = "filippi" /><br/>
+		<label for="v2"> Prénom : </label> <input type = "text" name = "v2" /><br/>
+		<label for="v3"> Mdp: </label> <input type = "password" name = "v3" /><br/> 
+	</fieldset>
+		<p> <textarea rows = "5" cols = "20" name = "v5"> Vos commentaires :</textarea><br/> </p>
+		<p><select multiple = "multiple">
+			<option> France</option>
+			<option selected = "selected"> Angleterre	</option>
+			<option> Ecosse	</option>
+		 </select><br/> </p>
+		<fieldset > <legend> Autres </legend> 
+			<p> sexe : </p> 
+		<label for="v6"> F </label> <input type = "radio" name = "v6" value = "F" />
+			   <label for="v6"> M </label> <input type = "radio" name = "v6" value = "M" />
+		<br/> 
+		</fieldset>
+		<fieldset > <legend> Hobbies </legend>
+		<p> hobbies : </p> 
+		<label for="v7"> Cinéma : </label> <input type = "checkbox" name = "v7" value = "Cinéma" />
+		<label for="v7"> Musique : </label><input type = "checkbox" name = "v7" value = "Musique" />
+		<label for="v7"> Lecture : </label><input type = "checkbox" name = "v7" value = "Lecture" />
+		<label for="v7"> Sport : </label><input type = "checkbox" name = "v7" value = "Sport" /> <br/> 
+		</fieldset>
+		<fieldset>
+			<legend>
+				Bouton soumission
+			</legend>
+		<input type = "hidden" name = "v9" value = "champ caché" />
+		<input type = "file" name = "v10" /><br/>
+		<input type = "button" name = "v11" value = "bouton" /><br/>
+		<input type = "submit" name = "v4" value = "envoyer" />
+		<input type = "reset" name = "v8" value = "effacer" /><br/>
+		</fieldset>
+
+	</form>
+
+</body>
+</html>

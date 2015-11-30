@@ -1,0 +1,82 @@
+body{
+  background-color: #FEE9D8 
+}
+/* Style attendu pour Cinema 
+
+titre : bordure double #DEB887 2pt
+        texte centré de couleur #DEB887
+      largeur 60%
+        marge extérieure gauche 10%
+        1ère lettre deux fois et demi plus grande, italique de couleur #A52A2A
+paragraphe 1ère lettre en gras deux fois et demi plus grande, italique de couleur #A52A2A
+encadré : largeur 80%
+          bordure de couleur #A52A2A 2pt
+          marge extérieure haute 5pt, basse 20pt
+image : largeur 80%
+légendes diverses en gras
+tableau : fond #DEB887, bordure effet 3D clair/foncé de couleur #A52A2A
+ligne horizontale : bordure effet 3D clair/foncé de couleur #A52A2A
+                    marge intérieure 1pt
+                    longueur sur toute la page
+
+encadré+tableau calé à gauche, image à droite, ligne horizontale en dessous*/
+h1{ 
+  font-family: 'Roboto', sans-serif;
+  border: double #DEB887 2pt;
+  text-align: center;
+  width: 60%;
+  color:#DEB887;
+  margin-left: 10%;
+
+}
+h1::first-letter{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #A52A2A;
+  font-size: 250%;
+}
+p::first-letter{
+  font-size: 250%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+fieldset{
+  margin-top: 5pt;
+  margin-bottom: 20pt;
+  width:30%;
+  border: #A52A2A solid 2pt;
+}
+.bord{
+  position: absolute;
+  left:5%;
+  bottom:20%;
+
+}
+
+img{
+  width: 20%;
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+}
+
+table{
+  background-color: #DEB887;
+  border:inset #A52A2A;
+  width:30%;
+}
+
+td, th{
+  border:1px solid #A52A2A;
+}
+
+legend, caption{
+  font-weight: bold;
+}
+hr{position: absolute;
+bottom: 2px;
+border: outset #A52A2A;
+padding: 1pt;
+width: 100%;}
+

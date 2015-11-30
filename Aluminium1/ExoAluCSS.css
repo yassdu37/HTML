@@ -1,0 +1,24 @@
+/*Style attendu pour Aluminium:
+
+Pour tout le document : fond rgb(204,255,255), police Times New Roman, bleu foncé (navy)
+
+Pour H1 bordure double blanche 3pt, fond bleu foncé (navy), texte centré, blanc, 18pt, largeur 60%
+
+Pour H2 texte 16pt, souligné, rouge
+ 
+Pour H3 texte 14pt, italique, vert, marge à gauche 5pt
+
+Pour P texte justifié, gras, marge à gauche 10pt
+
+Pour UL texte gras, puces carrées, marge à gauche 15pt
+
+Pour OL texte gras, puces chiffres romains en minuscule, marge à gauche 15pt*/
+body{
+	background-color: rgb(204,255,255);
+	color:navy;
+	font-family:  "Times New Roman";
+}
+
+
+
+
